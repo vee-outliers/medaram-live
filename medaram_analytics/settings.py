@@ -106,13 +106,13 @@ DATABASES = {
 
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
 
-        'NAME': 'medaram_live',
+        'NAME': 'medaram_live_db',
 
-        'USER': 'medaram_live_user',
+        'USER': 'medaram_live_db_user',
 
-        'PASSWORD': 'YDdK5g1n0Xl13qCuwjagDhxCrKMNT5Sl',
+        'PASSWORD': 'bDN3dstgG7BsOM5VDlMmzhdkWIJeT59v',
 
-        'HOST': 'dpg-cn74qpacn0vc738snaf0-a.singapore-postgres.render.com',
+        'HOST': 'dpg-cn76k6a1hbls73dpmfsg-a.singapore-postgres.render.com',
 
         'PORT': '5432',
 
