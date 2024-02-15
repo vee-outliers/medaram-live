@@ -25,9 +25,9 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-*@zef-$nd5kp(-mmk_2d@0up)-*ojj01w+%_=7lz=)@!5i@8q('
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
-ALLOWED_HOSTS = ['*','medaram-analytics.onrender.com']
+ALLOWED_HOSTS = ['*','medaram-analytics.onrender.com', "medaram-live.onrender.com"]
 
 
 # Application definition
