@@ -25,7 +25,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-*@zef-$nd5kp(-mmk_2d@0up)-*ojj01w+%_=7lz=)@!5i@8q('
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 ALLOWED_HOSTS = ['*','medaram-analytics.onrender.com']
 
@@ -106,13 +106,13 @@ DATABASES = {
 
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
 
-        'NAME': 'medaram_analaytics_db',
+        'NAME': 'medaram_live',
 
-        'USER': 'medaram_analaytics_db',
+        'USER': 'medaram_live_user',
 
-        'PASSWORD': 'bvQrozq2X3AWIyNEPT7ENxG92BAOwiIr',
+        'PASSWORD': 'YDdK5g1n0Xl13qCuwjagDhxCrKMNT5Sl',
 
-        'HOST': 'dpg-cmuesbug1b2c73ehm3fg-a.singapore-postgres.render.com',
+        'HOST': 'dpg-cn74qpacn0vc738snaf0-a.singapore-postgres.render.com',
 
         'PORT': '5432',
 
